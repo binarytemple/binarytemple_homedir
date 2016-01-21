@@ -1,0 +1,15 @@
+.*.swp
+*.swp
+.history
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cshrc
+.gnupg/
+.lesshst
+.ssh/
+.tcshrc
+.zshrc
+.viminfo
+.zcompdump
