@@ -13,3 +13,5 @@
 .zshrc
 .viminfo
 .zcompdump
+.cache/
+.vim/.netrwhist
