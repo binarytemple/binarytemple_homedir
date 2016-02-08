@@ -16,3 +16,5 @@
 .cache/
 .vim/.netrwhist
 .gitconfig
+.lvm_history
+poc_docker_compose/
