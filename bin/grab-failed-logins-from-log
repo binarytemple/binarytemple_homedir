@@ -1,0 +1,2 @@
+echo "This script : $0 needs to be tested properly" > /dev/stderr
+sed -n -e '/ from [0-9]/{s_[^r]*[^o]*__;s_[^0-9\.]*__;s_\([0-9\.]*\).*_\1_p}' /var/log/secure
