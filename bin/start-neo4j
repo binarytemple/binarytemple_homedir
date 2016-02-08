@@ -1,0 +1,10 @@
+
+# start-ne04j
+
+# this script starts up a neo4j instance, binding to localhost
+
+docker run \
+    --detach \
+    --publish=127.0.0.1:7474:7474 \
+    --volume=$HOME/neo4j/data:/data \
+    neo4j/neo4j
