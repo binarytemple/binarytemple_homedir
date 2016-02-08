@@ -1,0 +1,1 @@
+locate docker  | egrep -v '(\/mnt|volumes|devicemapper|metadata|containers|man\/)'
