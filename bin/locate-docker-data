@@ -1,0 +1,3 @@
+locate docker  | \
+egrep -v '(mnt|volumes|devicemapper|metadata|containers)' | \
+egrep -v "(\/etc\/docker|man\/|\/usr\/share\/doc|\/var\/cache\/yum|\/usr\/share|$HOME|archive|\/etc\/lvm\/backup\/docker|selinux|yum|bin|docker-storage-setup|docker\.socket|\/usr\/libexec\/docker|\/usr\/libexec\/docker/dockerinit|\/usr\/local\/bin\/docker-compose|docker.service)" 
